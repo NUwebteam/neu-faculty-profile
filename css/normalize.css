@@ -6,6 +6,9 @@
  *    user zoom.
  */
 
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -17,7 +20,9 @@ html {
  */
 
 body {
-  margin: 0;
+  width: 100%;
+  margin: 0px auto;
+  background-color: #000;
 }
 
 /* HTML5 display definitions
