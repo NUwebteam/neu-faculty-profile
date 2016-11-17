@@ -18,6 +18,7 @@ $(function(){
       });
 
   });
+  
   $(".arrow").hide();
 
   // Check devise/window size for scroll prompt
