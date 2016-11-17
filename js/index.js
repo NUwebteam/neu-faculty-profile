@@ -20,7 +20,7 @@ $(function(){
   });
 
   $(window).resize(function() {
-    if ($(window).width() < 992) {
+    if ($(window).width() < 800) {
       $(".modal-box").addClass('fixed');
       $(".modal-box").removeClass('flex');
     } else {
@@ -34,5 +34,5 @@ $(function(){
   });
 
   $(window).resize();
-
+  $('map').imageMapResize();
 });

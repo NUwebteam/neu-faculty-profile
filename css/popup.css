@@ -63,6 +63,7 @@ h3 {
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-clip: padding-box;
+    overflow: scroll;
 }
 
 @media (min-width: 32em) {
