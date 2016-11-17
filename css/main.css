@@ -120,6 +120,7 @@ p.item {
 }
 
 .arrow {
+  display: none;
   position: fixed;
   bottom: 120px;
   z-index: 10000;
