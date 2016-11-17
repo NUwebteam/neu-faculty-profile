@@ -18,9 +18,19 @@ $(function(){
       });
 
   });
-
   $(".arrow").hide();
 
+  // Check devise/window size for scroll prompt
+  $(window).on('load', function() {
+    if ($(window).width() <= 800) {
+      $(".arrow").show('slow').delay( 3000).hide('slow');
+    } else {
+      $(".arrow").hide();
+    }
+  });
+
+
+  // Resize function with timeout to see if prompt should be shown to scroll of not
   var resizeTimer;
 
   $(window).on('resize', function(e) {
@@ -44,5 +54,8 @@ $(function(){
     }, 250);
 
   });
+
+  // Image Map Resizer to keep coordinates for clickable items in the right location
+  // on an image
   $('map').imageMapResize();
 });
