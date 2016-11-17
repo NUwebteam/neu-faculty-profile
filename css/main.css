@@ -190,6 +190,7 @@ p.item {
     left: 10%;
     top: 15%;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -212,5 +213,6 @@ p.item {
     width: 100%;
     top: 0%;
     height: 100vh;
+    left: 0%;
   }
 }
