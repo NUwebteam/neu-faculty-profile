@@ -1,9 +1,21 @@
 /*********************************
 	* text style
 	*********************************/
+
+.test-box {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    border: 1px solid pink;
+    top: 40%;
+    left: 7%;
+    z-index: 10000;
+}
+
 .flex {
-  top: calc(100vh - 70%);
-  left: calc(100vh - 60%);
+  width: 70%;
+  top: 30%;
+  left: 15%;
 }
 
 .fixed {
