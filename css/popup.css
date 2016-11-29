@@ -116,7 +116,7 @@ a.close {
     font-size: 3.5em;
     position: absolute;
     top: 0px;
-    right: 1%;
+    left: 2%;
     text-decoration: none;
     color: #bbb;
     transform: rotate(45deg);
