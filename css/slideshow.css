@@ -29,7 +29,7 @@
     /*right: 0;*/
     left: 0;
     margin: auto;
-    overflow: scroll;
+    /*overflow: scroll;*/
     z-index: 8;
     background-size: cover;
     background-position: center center;
