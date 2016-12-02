@@ -83,15 +83,15 @@ img.photo {
 }
 
 .img_holder {
-		float: left;
-    width: 60%;
-    vertical-align: top;
+		/*float: left;*/
+    width: 80%;
+    margin-left:10%;
 }
 
 .text_holder {
-		float: left;
-    width: 40%;
-    vertical-align: top;
+		/*float: left;*/
+    width: 80%;
+    margin-left: 10%;
     /*margin-bottom: 150px;*/
 }
 
@@ -179,10 +179,12 @@ p.item {
 @media (max-width: 800px) {
   .img_holder {
     width: 100%;
+    margin-left:0%;
   }
   .text_holder {
     width: 100%;
     /*margin-bottom: 150px;*/
+    margin-left:0%;
     font-size: 14px;
   }
   .modal-image {
